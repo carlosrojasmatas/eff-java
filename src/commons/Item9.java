@@ -6,7 +6,7 @@ package commons;
  * Always override hashCode when override equals
  * -- Hashcode alwahs returns the same integer in the same object.
  * -- If two objects are equals(), hashcode returns the same int.
- * -- Not required but recommended that if two objects are unequals return same int.
+ * -- Not required but recommended that if two objects are unequals return distinct int.
  * -- If returning the same hashcode (i.e 42) the hashtable degenerates in linked list. (check this)
  * -- Recipe for good hashcode:
  *    1 - Store some number x, better if primus, in a var ex. result.
